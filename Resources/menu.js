@@ -11,7 +11,7 @@ activity.onCreateOptionsMenu = function(e) {
 	about.addEventListener("click", function(e) {
 			var alertDialog = Titanium.UI.createAlertDialog({
 				title: 'Info7 irratia',
-				message: '2011 Mikel Olasagasti Uranga\nmikel@olasagasti.info\n\nInfo7 irratia entzuteko aplikazioa\n\n0.2 bertsioa',
+				message: '2011 Mikel Olasagasti Uranga\nmikel@olasagasti.info\n\nInfo7 irratia entzuteko aplikazioa\n\n0.2.1 bertsioa\n\nIrudiak: Mikel Plaza',
 				buttonNames: ['OK']
 			});
 		alertDialog.show();
