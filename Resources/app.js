@@ -1,4 +1,3 @@
-//var win = Titanium.UI.currentWindow;
 var win = Titanium.UI.createWindow({title:'Info7 Irratia',backgroundImage:'default.png',backgroundColor:'#E08726',fullscreen: true,url: 'menu.js', exitOnClose: true,navBarHidden: true});
 var kalitatea = Titanium.App.Properties.getString("kalitatea");
 var url= "";

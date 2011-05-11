@@ -41,9 +41,4 @@ dialog.addEventListener('click',function(e)
 	Ti.API.info("Aukera: "+e.index);
 	Titanium.App.Properties.setString("kalitatea",e.index);
 	Titanium.App.Properties.fireEvent('urlChange', {index:e.index});
-	/*var n = Ti.UI.createNotification({message:"Irten eta ireki berriz aplikazioa kalitatea aldatzeko"});
-	n.duration = Ti.UI.NOTIFICATION_DURATION_LONG;
-	n.show();*/
 });
-
-//Titanium.UI.Android.OptionMenu.setMenu(menu);
