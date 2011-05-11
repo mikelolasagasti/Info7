@@ -1,1 +1,4 @@
 tmp
+build/android/gen/
+build/android/.project
+build/android/.classpath
